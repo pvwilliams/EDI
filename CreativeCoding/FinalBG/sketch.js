@@ -12,7 +12,7 @@ function setup() {//runs once
 
 function draw() {//runs in a loop
   
-  var num = 100;
+  var num = 5;
   var sideLen = windowWidth/num;
   
     for(var y = 0; y < windowHeight; y = y + sideLen) 
