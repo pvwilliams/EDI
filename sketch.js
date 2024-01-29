@@ -21,7 +21,7 @@ background('white');
    {//loop to create a grid the y direction
       
       
-  for(var x = 0; x < windowWidth; x = x + sideLen)
+  for(var x = 0; x < 2 * windowWidth; x = x + sideLen)
     {  
     image (gif, x, y, sideLen, sideLen);
     }
